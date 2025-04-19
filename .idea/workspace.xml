@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d8c6843-1659-455b-8772-172f90bce624" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sudoku1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sudoku10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sudoku2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sudoku3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sudoku4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sudoku5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sudoku6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sudoku7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sudoku8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sudoku9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hillclimbing.py" afterDir="false" />
-    </list>
+    <list default="true" id="8d8c6843-1659-455b-8772-172f90bce624" name="Changes" comment="added dataset" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TastyButterfly/AI-ASS",
+    "accountId": "39b8d0a8-e8e3-4b41-8035-84f0a1e192a4"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -77,11 +66,24 @@
       <option name="presentableId" value="Default" />
       <updated>1745068179398</updated>
       <workItem from="1745068180450" duration="120000" />
-      <workItem from="1745068313982" duration="2020000" />
+      <workItem from="1745068313982" duration="2938000" />
     </task>
+    <task id="LOCAL-00001" summary="added dataset">
+      <option name="closed" value="true" />
+      <created>1745071915613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745071915613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dataset" />
   </component>
 </project>
