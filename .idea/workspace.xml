@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d8c6843-1659-455b-8772-172f90bce624" name="Changes" comment="basic algorithm created">
+    <list default="true" id="8d8c6843-1659-455b-8772-172f90bce624" name="Changes" comment="Full algorithm created, includes puzzle validation, processing and memory report, writing of solution to text file, as well as buffer for recent states to improve performance">
+      <change afterPath="$PROJECT_DIR$/solutions/console.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sudoku1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sudoku01.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sudoku2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sudoku02.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sudoku3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sudoku03.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sudoku4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sudoku04.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sudoku5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sudoku05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sudoku6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sudoku06.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sudoku7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sudoku07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sudoku8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sudoku08.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sudoku9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sudoku09.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sudoku08.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sudoku08.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/solution_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/solution_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/solution_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/solution_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/solution_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/solution_5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/solution_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/solution_8.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hillclimbing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hillclimbing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,22 +50,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.hillclimbing.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.hillclimbing.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="hillclimbing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
@@ -120,7 +117,9 @@
       <workItem from="1745081804848" duration="1570000" />
       <workItem from="1745088778527" duration="171000" />
       <workItem from="1745128002755" duration="680000" />
-      <workItem from="1745157956399" duration="7574000" />
+      <workItem from="1745157956399" duration="7652000" />
+      <workItem from="1745168838653" duration="167000" />
+      <workItem from="1745233073079" duration="3596000" />
     </task>
     <task id="LOCAL-00001" summary="added dataset">
       <option name="closed" value="true" />
@@ -146,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745083674741</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Full algorithm created, includes puzzle validation, processing and memory report, writing of solution to text file, as well as buffer for recent states to improve performance">
+      <option name="closed" value="true" />
+      <created>1745168804843</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745168804843</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,9 +162,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added dataset" />
     <MESSAGE value="basic algorithm created" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic algorithm created" />
+    <MESSAGE value="Full algorithm created, includes puzzle validation, processing and memory report, writing of solution to text file, as well as buffer for recent states to improve performance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full algorithm created, includes puzzle validation, processing and memory report, writing of solution to text file, as well as buffer for recent states to improve performance" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PycharmProjects$hillclimbing.coverage" NAME="hillclimbing Coverage Results" MODIFIED="1745168706043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$hillclimbing.coverage" NAME="hillclimbing Coverage Results" MODIFIED="1745247517294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

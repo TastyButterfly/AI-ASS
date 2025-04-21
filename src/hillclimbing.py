@@ -105,11 +105,7 @@ def hill_climbing(board):
     Solves the Sudoku puzzle using the hill climbing algorithm.
     """
     board = copy.deepcopy(board)
-    try:
-        current_board, fixed_board = initialize_board(board)
-    except ValueError as e:
-        print(f"Board is invalid: {e}")
-        return None, None, None
+    current_board, fixed_board = initialize_board(board)
     current_heuristic = heuristic(current_board)
     blank_squares = sum(row.count(0) for row in fixed_board)
     max_iterations = 9 * (blank_squares ** 2)
