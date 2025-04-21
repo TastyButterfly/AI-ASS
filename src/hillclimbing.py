@@ -114,7 +114,7 @@ def hill_climbing(board):
     blank_squares = sum(row.count(0) for row in fixed_board)
     max_iterations = 9 * (blank_squares ** 2)
     iteration = 0
-    recent_states = deque(maxlen=100)
+    recent_states = deque(maxlen=20)
     # Main loop
     while iteration < max_iterations:
         neighbors = get_neighbors(current_board, fixed_board)
