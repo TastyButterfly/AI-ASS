@@ -189,7 +189,8 @@ if __name__ == "__main__":
         if h == 0:
             puzzle_end_time = time.time()
             process_time = puzzle_end_time - puzzle_start_time
-            print(f"Solution found, iterations: {iterations}\nTime taken: {round(process_time,3)}s\nSolution:")
+            memory_used = (process.memory_info().rss - start_memory) / (1024 * 1024)  # Convert to MB
+            print(f"Solution found, iterations: {iterations}\nTime taken: {process_time:.3f}s\nMemory used: {memory_used:.4f} MB\nSolution:")
             for row in solution:
                 print(row)
             save_solution_to_file(solution, i)
@@ -207,7 +208,7 @@ if __name__ == "__main__":
 
     # Print results
     print(f"\nTotal Processing Time: {processing_time:.2f} seconds")
-    print(f"Memory Used: {memory_used:.2f} MB")
+    print(f"Memory Used: {memory_used:.3f} MB")
     print(f"Total solutions found: {solutionN}")
     if solutionN==0:
         print("No solutions found.")

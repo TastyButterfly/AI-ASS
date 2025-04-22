@@ -1,6 +1,8 @@
 C:\Users\neohc\PycharmProjects\.venv\Scripts\python.exe C:\Users\neohc\PycharmProjects\src\hillclimbing.py
 Solving puzzle 1, attempt 1...
-Solution found, iterations: 2621
+Solution found, iterations: 471
+Time taken: 3.231s
+Memory used: 0.4805 MB
 Solution:
 [4, 8, 3, 9, 2, 1, 6, 5, 7]
 [9, 6, 7, 3, 4, 5, 8, 2, 1]
@@ -12,31 +14,37 @@ Solution:
 [8, 1, 4, 2, 5, 3, 7, 6, 9]
 [6, 9, 5, 4, 1, 7, 3, 8, 2]
 Solving puzzle 2, attempt 1...
-Solution found, iterations: 223
+Solution found, iterations: 70
+Time taken: 0.971s
+Memory used: 0.9141 MB
 Solution:
-[8, 7, 5, 6, 1, 2, 4, 3, 9]
-[1, 4, 9, 7, 3, 8, 5, 6, 2]
-[6, 2, 3, 4, 9, 5, 1, 7, 8]
-[5, 8, 2, 3, 7, 6, 9, 4, 1]
-[3, 1, 6, 5, 4, 9, 2, 8, 7]
-[7, 9, 4, 8, 2, 1, 3, 5, 6]
-[9, 5, 7, 2, 6, 3, 8, 1, 4]
-[4, 3, 1, 9, 8, 7, 6, 2, 5]
-[2, 6, 8, 1, 5, 4, 7, 9, 3]
+[1, 7, 3, 6, 2, 5, 4, 9, 8]
+[6, 5, 9, 8, 4, 3, 1, 7, 2]
+[8, 2, 4, 1, 7, 9, 3, 6, 5]
+[7, 4, 5, 9, 8, 6, 2, 3, 1]
+[3, 8, 1, 2, 5, 7, 9, 4, 6]
+[9, 6, 2, 4, 3, 1, 8, 5, 7]
+[2, 3, 6, 7, 9, 8, 5, 1, 4]
+[4, 9, 7, 5, 1, 2, 6, 8, 3]
+[5, 1, 8, 3, 6, 4, 7, 2, 9]
 Solving puzzle 3, attempt 1...
-Solution found, iterations: 45
+Solution found, iterations: 52
+Time taken: 0.209s
+Memory used: 0.9141 MB
 Solution:
-[5, 7, 1, 8, 9, 6, 4, 2, 3]
+[1, 7, 5, 8, 9, 6, 4, 2, 3]
 [4, 2, 3, 1, 7, 5, 6, 9, 8]
 [6, 9, 8, 3, 2, 4, 5, 7, 1]
 [2, 8, 6, 5, 3, 7, 9, 1, 4]
-[7, 3, 5, 4, 1, 9, 2, 8, 6]
+[5, 3, 7, 4, 1, 9, 2, 8, 6]
 [9, 1, 4, 6, 8, 2, 7, 3, 5]
 [8, 5, 9, 2, 6, 3, 1, 4, 7]
-[1, 4, 7, 9, 5, 8, 3, 6, 2]
+[7, 4, 1, 9, 5, 8, 3, 6, 2]
 [3, 6, 2, 7, 4, 1, 8, 5, 9]
 Solving puzzle 4, attempt 1...
-Solution found, iterations: 343
+Solution found, iterations: 154
+Time taken: 0.616s
+Memory used: 0.9141 MB
 Solution:
 [8, 7, 6, 9, 4, 5, 3, 1, 2]
 [1, 3, 2, 6, 8, 7, 5, 4, 9]
@@ -48,19 +56,23 @@ Solution:
 [5, 9, 8, 4, 3, 2, 6, 7, 1]
 [3, 2, 4, 1, 7, 6, 9, 5, 8]
 Solving puzzle 5, attempt 1...
-Solution found, iterations: 25
+Solution found, iterations: 17
+Time taken: 0.077s
+Memory used: 0.9141 MB
 Solution:
 [3, 7, 8, 9, 2, 1, 6, 5, 4]
-[5, 4, 6, 3, 8, 7, 9, 2, 1]
+[5, 4, 6, 8, 3, 7, 9, 2, 1]
 [2, 1, 9, 6, 5, 4, 8, 3, 7]
-[9, 5, 1, 4, 3, 8, 7, 6, 2]
-[4, 8, 3, 7, 6, 2, 1, 9, 5]
-[6, 2, 7, 1, 9, 5, 4, 8, 3]
-[8, 3, 4, 2, 7, 9, 5, 1, 6]
-[1, 6, 5, 8, 4, 3, 2, 7, 9]
-[7, 9, 2, 5, 1, 6, 3, 4, 8]
+[9, 5, 1, 4, 6, 3, 7, 8, 2]
+[6, 3, 4, 7, 8, 2, 1, 9, 5]
+[8, 2, 7, 1, 9, 5, 4, 6, 3]
+[4, 8, 2, 3, 7, 9, 5, 1, 6]
+[1, 6, 3, 5, 4, 8, 2, 7, 9]
+[7, 9, 5, 2, 1, 6, 3, 4, 8]
 Solving puzzle 6, attempt 1...
-Solution found, iterations: 73
+Solution found, iterations: 31
+Time taken: 0.128s
+Memory used: 0.9141 MB
 Solution:
 [1, 7, 8, 3, 5, 6, 4, 2, 9]
 [5, 6, 3, 4, 9, 2, 8, 7, 1]
@@ -72,7 +84,9 @@ Solution:
 [8, 9, 2, 7, 3, 1, 6, 5, 4]
 [4, 5, 6, 2, 8, 9, 7, 1, 3]
 Solving puzzle 7, attempt 1...
-Solution found, iterations: 110
+Solution found, iterations: 81
+Time taken: 0.304s
+Memory used: 0.9141 MB
 Solution:
 [1, 6, 3, 5, 9, 4, 7, 2, 8]
 [2, 8, 7, 6, 1, 3, 4, 9, 5]
@@ -84,7 +98,9 @@ Solution:
 [7, 9, 5, 2, 3, 8, 6, 4, 1]
 [3, 2, 8, 1, 4, 6, 5, 7, 9]
 Solving puzzle 8, attempt 1...
-Solution found, iterations: 18
+Solution found, iterations: 89
+Time taken: 0.335s
+Memory used: 0.9141 MB
 Solution:
 [5, 9, 6, 8, 2, 1, 4, 3, 7]
 [3, 7, 4, 6, 5, 9, 8, 2, 1]
@@ -96,7 +112,9 @@ Solution:
 [9, 4, 5, 2, 1, 6, 3, 7, 8]
 [1, 6, 2, 3, 7, 8, 5, 9, 4]
 Solving puzzle 9, attempt 1...
-Solution found, iterations: 75
+Solution found, iterations: 44
+Time taken: 0.161s
+Memory used: 0.9141 MB
 Solution:
 [1, 9, 4, 2, 8, 6, 3, 7, 5]
 [5, 3, 7, 1, 4, 9, 6, 8, 2]
@@ -108,7 +126,9 @@ Solution:
 [4, 5, 3, 8, 9, 1, 2, 6, 7]
 [8, 1, 9, 7, 6, 2, 5, 3, 4]
 Solving puzzle 10, attempt 1...
-Solution found, iterations: 80
+Solution found, iterations: 21
+Time taken: 0.079s
+Memory used: 0.9141 MB
 Solution:
 [6, 5, 2, 3, 1, 9, 7, 8, 4]
 [4, 7, 8, 5, 6, 2, 3, 9, 1]
@@ -120,8 +140,8 @@ Solution:
 [5, 8, 6, 2, 3, 1, 9, 4, 7]
 [7, 9, 4, 8, 5, 6, 2, 1, 3]
 
-Processing Time: 18.77 seconds
-Memory Used: 0.91 MB
+Total Processing Time: 6.12 seconds
+Memory Used: 0.914 MB
 Total solutions found: 10
 All solutions found!
 

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d8c6843-1659-455b-8772-172f90bce624" name="Changes" comment="Checked and changed solutions">
+    <list default="true" id="8d8c6843-1659-455b-8772-172f90bce624" name="Changes" comment="changed solutions and added time used for each puzzle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/console.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/console.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/solution_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/solution_2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/solution_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/solution_3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/solution_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/solution_5.txt" afterDir="false" />
@@ -47,22 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.hillclimbing.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.hillclimbing.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Console",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="hillclimbing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
@@ -117,7 +118,7 @@
       <workItem from="1745157956399" duration="7652000" />
       <workItem from="1745168838653" duration="167000" />
       <workItem from="1745233073079" duration="4215000" />
-      <workItem from="1745310066196" duration="1322000" />
+      <workItem from="1745310066196" duration="7240000" />
     </task>
     <task id="LOCAL-00001" summary="added dataset">
       <option name="closed" value="true" />
@@ -159,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745259881497</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changed solutions and added time used for each puzzle">
+      <option name="closed" value="true" />
+      <created>1745311649980</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745311649980</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,9 +179,10 @@
     <MESSAGE value="basic algorithm created" />
     <MESSAGE value="Full algorithm created, includes puzzle validation, processing and memory report, writing of solution to text file, as well as buffer for recent states to improve performance" />
     <MESSAGE value="Checked and changed solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checked and changed solutions" />
+    <MESSAGE value="changed solutions and added time used for each puzzle" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed solutions and added time used for each puzzle" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PycharmProjects$hillclimbing.coverage" NAME="hillclimbing Coverage Results" MODIFIED="1745310553115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$hillclimbing.coverage" NAME="hillclimbing Coverage Results" MODIFIED="1745330024924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
