@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d8c6843-1659-455b-8772-172f90bce624" name="Changes" comment="Full algorithm created, includes puzzle validation, processing and memory report, writing of solution to text file, as well as buffer for recent states to improve performance">
-      <change afterPath="$PROJECT_DIR$/solutions/console.txt" afterDir="false" />
+    <list default="true" id="8d8c6843-1659-455b-8772-172f90bce624" name="Changes" comment="Checked and changed solutions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sudoku08.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sudoku08.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/solution_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/solution_2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/solution_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/solution_3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/solution_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/solution_5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/solution_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/solution_8.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hillclimbing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hillclimbing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +116,8 @@
       <workItem from="1745128002755" duration="680000" />
       <workItem from="1745157956399" duration="7652000" />
       <workItem from="1745168838653" duration="167000" />
-      <workItem from="1745233073079" duration="3596000" />
+      <workItem from="1745233073079" duration="4215000" />
+      <workItem from="1745310066196" duration="1322000" />
     </task>
     <task id="LOCAL-00001" summary="added dataset">
       <option name="closed" value="true" />
@@ -153,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745168804843</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Checked and changed solutions">
+      <option name="closed" value="true" />
+      <created>1745259881497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745259881497</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,9 +169,10 @@
     <MESSAGE value="added dataset" />
     <MESSAGE value="basic algorithm created" />
     <MESSAGE value="Full algorithm created, includes puzzle validation, processing and memory report, writing of solution to text file, as well as buffer for recent states to improve performance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Full algorithm created, includes puzzle validation, processing and memory report, writing of solution to text file, as well as buffer for recent states to improve performance" />
+    <MESSAGE value="Checked and changed solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checked and changed solutions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PycharmProjects$hillclimbing.coverage" NAME="hillclimbing Coverage Results" MODIFIED="1745247517294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$hillclimbing.coverage" NAME="hillclimbing Coverage Results" MODIFIED="1745310553115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

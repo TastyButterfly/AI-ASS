@@ -173,6 +173,7 @@ if __name__ == "__main__":
     solutionN=0
     # Solve each puzzle
     for i, puzzle in enumerate(puzzles):
+        puzzle_start_time = time.time()
         try:
             validate_board(puzzle)
         except ValueError as e:
@@ -186,7 +187,9 @@ if __name__ == "__main__":
             if h==0:
                 break
         if h == 0:
-            print("Solution found, iterations:", iterations, "\nSolution:")
+            puzzle_end_time = time.time()
+            process_time = puzzle_end_time - puzzle_start_time
+            print(f"Solution found, iterations: {iterations}\nTime taken: {round(process_time,3)}s\nSolution:")
             for row in solution:
                 print(row)
             save_solution_to_file(solution, i)
@@ -203,7 +206,7 @@ if __name__ == "__main__":
     memory_used = (end_memory - start_memory) / (1024 * 1024)  # Convert to MB
 
     # Print results
-    print(f"\nProcessing Time: {processing_time:.2f} seconds")
+    print(f"\nTotal Processing Time: {processing_time:.2f} seconds")
     print(f"Memory Used: {memory_used:.2f} MB")
     print(f"Total solutions found: {solutionN}")
     if solutionN==0:
